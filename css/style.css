@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    padding: 50px;
+    background-color: #1d0031;
+}
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book {
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px 30px 10px;
+    padding: 10px;
+    background-color: #d1c164;
+    border: 5px inset #ad1818;
+    border-radius: 10px;
+}
